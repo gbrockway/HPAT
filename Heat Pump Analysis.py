@@ -34,6 +34,8 @@
 # heat pump cooling
 
 # matplotlib figure plotting library
+import sys
+
 import matplotlib
 matplotlib.use("TkAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg,NavigationToolbar2TkAgg
