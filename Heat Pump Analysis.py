@@ -265,6 +265,9 @@ a4.set_autoscalex_on(True)
 a4.set_autoscaley_on(True)
 plt.grid(True)
 
+def quit():
+    exit(0)
+
 def popupmsg(title, msg):
     
     popup = tk.Tk()
